@@ -18,7 +18,7 @@ function calculateProfitLoss(ip, q, cp) {
       profitLossValue.toFixed(2) +
       ' and loss percentage is ' +
       profitLossPercentage.toFixed(2) +
-      ' 😕 '
+      '% 😕 '
     outerText.style.color = 'red'
   } else {
     outerText.innerText =
